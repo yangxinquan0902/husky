@@ -1,0 +1,29 @@
+{
+  "name": "husky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangxinquan0902/husky.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangxinquan0902/husky/issues"
+  },
+  "homepage": "https://github.com/yangxinquan0902/husky#readme",
+  "devDependencies": {
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"git commit trigger husky pre-commit hook\" "
+    }
+  }
+
+}
